@@ -6,4 +6,8 @@
     <RootNamespace>Random_Name_Generator</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Namelists\" />
+  </ItemGroup>
+
 </Project>
