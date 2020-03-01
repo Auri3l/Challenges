@@ -13,7 +13,7 @@ namespace RandomNameGenerator
             string surnameGet = surname[rand.Next(0, surname.Length)].ToLower();
             nameGet = char.ToUpper(nameGet[0]) + nameGet.Substring(1).ToLower();
             surnameGet = char.ToUpper(surnameGet[0]) + surnameGet.Substring(1).ToLower();
-            Console.WriteLine(nameGet + " " + surnameGet "/n/n" + "Dosyada " + name.Length + " ad " + surname.Length + " soyad bulunmaktadır.");
+            Console.WriteLine("\n" + nameGet + " " + surnameGet + "\n\n" + "Dosyada " + name.Length + " ad " + surname.Length + " soyad bulunmaktadır.");
         }
     }
 }
